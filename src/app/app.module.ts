@@ -2,10 +2,14 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { HeroesComponent } from './heroes/heroes.component';
+import { HeroeComponent } from './heroes/heroe/heroe.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeroesComponent,
+    HeroeComponent
   ],
   imports: [
     BrowserModule

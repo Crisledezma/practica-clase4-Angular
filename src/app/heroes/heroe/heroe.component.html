@@ -1,0 +1,7 @@
+<div *ngFor="let heroe of heroesService.heroes">
+  <h3>Nombre: <span>{{ heroe.heroeName }}</span></h3>
+  <h3>Nombre Real: <span>{{ heroe.realName }}</span></h3>
+  <img [ngStyle]="{'max-width':'100%', 'width': '300px'}"src="{{ heroe.image }}" alt="">
+  <hr>
+  
+</div>
